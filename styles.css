@@ -45,4 +45,8 @@ body{
 	align-items: start;
 	justify-content: space-between;
 	margin: 0px 20px;
+	background-color: white ;
+	padding: 10px;
+	border-radius: 20px;
+	
 }
