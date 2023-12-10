@@ -1,1 +1,48 @@
+body{
+	width: 100vw;
+	background-color: #F5F5F5;
+	font-family: arial, sans-serif;
+}
+#hero-1{
+	width: 50vw;
+}
+#hero-section{
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
 
+	margin:10px;
+}
+#hero-section>div>img{
+	width: 150px;
+	border-radius: 20px;
+}
+#hero-name>h4{
+	line-height: 25px;
+	margin: 0;
+}
+#hero-name>h4>span{
+	font-weight: 500;
+}
+#hero-skill>p{
+	margin: 20px 0px 0px 10px;
+}
+.percent{
+	text-align: right;
+}
+#hero-skill>progress{
+	width: 95%;
+	border: 1px solid whitesmoke;
+	margin-inline: 10px;
+	height: 15px
+}
+#hero-about{
+	width: 40%;
+	text-align: justify;
+}
+#section-1{
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	margin: 0px 20px;
+}
